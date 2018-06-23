@@ -23,14 +23,14 @@ function createCard(card) {
     $('#deck').append(`<li class="card animated"><i class="fa ${card}"></i></li>`);
 }
 
-// generate random cards on the deck
+// This will generate random cards on the deck
 function generateCards() {
     for (var i = 0; i < 2; i++) {
         cardLists = shuffle(cardLists);
         cardLists.forEach(createCard);
     }
 }
-// Shuffle function from http://stackoverflow.com/a/2450976
+// Shuffle function reference from http://stackoverflow.com/a/2450976
 function shuffle(array) {
     var currentIndex = array.length
         , temporaryValue, randomIndex;
