@@ -1,6 +1,28 @@
 /*
  * Create a list that holds all of your cards
  */
+var cardLists = ["fa-diamond", "fa-paper-plane-o", "fa-anchor", "fa-bolt", "fa-cube", "fa-leaf", "fa-bicycle", "fa-bomb"];
+
+// Store match found and numbers of moves
+var moves = 0;
+var match_found = 0;
+
+// Check if first card is opened
+var game_started = false;
+
+// timer
+var timer = new Timer();
+timer.addEventListener('secondsUpdated', function(e){
+  $('timer').html(timer.getTimeValues().toString());
+});
+
+// Reset button
+$('#reset-button').click(resetGame);
+
+// create new and append card HTML
+function createCard(card) {
+    $('#deck').append(`<li class="card animated"><i class="fa ${card}"></i></li>`);
+}
 
 
 /*
