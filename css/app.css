@@ -150,6 +150,39 @@ p.success {
     color: #73AF55;
 }
 
+
+#sucess-result {
+    display: none;
+}
+
+.score-titles {
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.score-values {
+    font-weight: 100;
+    margin-right: 1vw;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.star {
+     display: inline;
+    margin: 2px;
+}
+
+.margin-top-2 {
+  margin-top: 2vh;
+}
+
+.text-right {
+    float: right;
+}
+
+/* webkit */
 @-webkit-keyframes dash {
     0% {
         stroke-dashoffset: 1000;
@@ -184,35 +217,4 @@ p.success {
     100% {
         stroke-dashoffset: 900;
     }
-}
-
-#sucess-result {
-    display: none;
-}
-
-.score-titles {
-    font-weight: 900;
-    margin-right: 5px;
-}
-
-.score-values {
-    font-weight: 100;
-    margin-right: 1vw;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.star {
-     display: inline;
-    margin: 2px;
-}
-
-.margin-top-2 {
-  margin-top: 2vh;
-}
-
-.text-right {
-    float: right;
 }
