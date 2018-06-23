@@ -1,10 +1,4 @@
 # Memory Game Project
-
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
-
 ## Instructions
 
 1. Choose matching shapes to complete the game
