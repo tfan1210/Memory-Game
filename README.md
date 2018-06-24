@@ -19,3 +19,5 @@ This project is built by using HTML, CSS, and JS. To try the game you can clone 
 To clone the repo Type
 
 git clone https://github.com/tfan1210/Memory-Game.git
+
+Then open index.html
