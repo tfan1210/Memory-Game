@@ -149,6 +149,7 @@ function resetGame() {
     game_started=false;
     timer.stop();
     $('#timer').html("00:00:00");
+    removeOpenCards();
     playGame();
 }
 // Init function
