@@ -21,3 +21,13 @@ To clone the repo Type
 git clone https://github.com/tfan1210/Memory-Game.git
 
 Then open index.html
+
+## Dependencies
+
+1. FontAwesome for all the images: https://fontawesome.com/
+
+2. Google fonts: https://fonts.google.com/?query=coda&selection.family=Coda
+
+3. Ajax animation from: https://cdnjs.com/libraries/animate.css/
+
+4. Easytimer JS: https://albert-gonzalez.github.io/easytimer.js/
